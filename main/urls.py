@@ -1,5 +1,5 @@
 """
-URL configuration for main project.
+URL configuration for back-app project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -25,4 +25,4 @@ urlpatterns = [
     path('ws/', include(websocket_urlpatterns)),
 ]
 
-# C:\Users\user1\PycharmProjects\Telemetry-emulator\main\main\urls.py
+# C:\Users\user1\PycharmProjects\Telemetry-emulator\back-app\back-app\urls.py

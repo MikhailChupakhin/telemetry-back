@@ -242,3 +242,4 @@ example_parameters_data = {
     },
     "controls": {"lift_up": False, "lift_dn": False, "key": False, "archimedes": False},
 }
+

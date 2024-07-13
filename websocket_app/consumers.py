@@ -1,4 +1,4 @@
-# C:\Users\user1\PycharmProjects\Telemetry-emulator\main\websocket_app\consumers.py
+# C:\Users\user1\PycharmProjects\Telemetry-emulator\back-app\websocket_app\consumers.py
 from channels.generic.websocket import AsyncWebsocketConsumer
 import json
 

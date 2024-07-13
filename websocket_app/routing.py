@@ -1,4 +1,4 @@
-# C:\Users\user1\PycharmProjects\Telemetry-emulator\main\websocket_app\routing.py
+# C:\Users\user1\PycharmProjects\Telemetry-emulator\back-app\websocket_app\routing.py
 from django.urls import path
 from .consumers import DataConsumer
 

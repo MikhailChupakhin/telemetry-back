@@ -1,5 +1,5 @@
 """
-ASGI config for main project.
+ASGI config for back-app project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -16,7 +16,7 @@ import asyncio
 
 import example_data.examples
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'main.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'back-app.settings')
 
 sio = socketio.AsyncServer(
     async_mode='asgi',
@@ -74,4 +74,5 @@ async def send_telemetry(sid):
 async def catch_all(event, sid, data):
     print(f"Caught event: {event}, sid: {sid}, data: {data}")
 
-# uvicorn main.asgi:application --host 0.0.0.0 --port 8000 --reload
+# uvicorn back-app.asgi:application --host 0.0.0.0 --port 8000 --reload
+
